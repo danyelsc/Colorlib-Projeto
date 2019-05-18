@@ -37,15 +37,23 @@ nav li {
     font-size: 20px;
 
 }
+div button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+}
 button {
     margin-top: 17px;
+    border-radius: 15px;
+    border: none;
+    background: #4f45e3;
+    color: white;
 }
 
 main {
     background-image: url(./img/img-fundo.jpg);
     background-size: cover;
     height: 100vh;
-
     
 }
 

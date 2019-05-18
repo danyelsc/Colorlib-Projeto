@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    background-color: aquamarine;
+}
+.flex-j-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-j-araund {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-d-column {
+    flex-direction: column;
+}
+.box-width {
+    width: 30vw;
+} 
+.box-height {
+    height: 100vh;
+}
+header {
+    height: 10vh;
+}
+section {
+    background-color: red;
+    height: 90vh;
+}
