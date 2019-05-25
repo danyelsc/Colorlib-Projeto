@@ -5,32 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+
     <title>OneSchool</title>
 </head>
 <body>
     <main class="box-height">
         <header class="flex-j-between">
-            <h1>Título</h1>
+            <h1>OneSchool</h1>
             <ul class="flex-j-between">
-                <li>Link 1</li>
-                <li>Link 2</li>
-                <li>Link 3</li>
-                <li>Link 4</li>
+                <li>Home</li>
+                <li>Courses</li>
+                <li>Programs</li>
+                <li>Teachs</li>
             </ul>
-            <button>Contato</button>
+            <button id="contato-buttom">Contato</button>
         </header>
-        <section class="flex-j-araund">
+        <section id= "main-content" class="flex-j-araund">
+            <div class="overlay">
+
+            </div>
             <article class="box-width">
                 <h2>Título</h2>
                 <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolor, quo eos, vel unde quaerat in possimus id pariatur nemo nisi necessitatibus iure fuga consequatur. Vero accusamus voluptatem exercitationem perferendis.</P>
-                <button>More</button>  
+                <button id="more-buttom">More</button>  
             </article>
-                <form action="#" class="flex-j-araund flex-d-column box-width">
+                <form action="#" class="flex-j-araund flex-d-column box-width form">
                     <h2>Título form</h2>
-                    <input type="text" name="" id="">
-                    <input type="text" name="" id="">
-                    <input type="text" name="" id="">
-                    <button>Send</button>
+                    <div class="input-container flex-center">
+                        <i class="fas fa-user"></i>
+                        <input placeholder="Email" type="text" name="" id="">
+                    </div>
+                   <div class="input-container flex-center">
+                        <i class="fas fa-lock"></i>
+                        <input placeholder="Senha" type="password" name="" id="">
+                   </div>
+                   
+                  
+                    <button id="send-buttom">Send</button>
                 </form>
         </section>
     </main>
